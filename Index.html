@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="Web Dev.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="https://t3.ftcdn.net/jpg/03/12/87/02/240_F_312870277_iAzj7LgSSF0zLNd6ElQWTJxKxlJOT0V1.jpg"
+                class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">About US</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </nav>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1rR-jlBWRw0MIFInxMUFkRYNHv2DZaX4fWA&usqp=CAU" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>Developer Of<br>Future</h2>
+                <h3>Full Stack Web Developers</h3>
+                <p>Web Developer</p><br>
+                <h4>Learn To Code</h4>
+                <button>Get Code<img src="https://firebasestorage.googleapis.com/v0/b/photo-to-link.appspot.com/o/126107475?alt=media&token=950849aa-1d61-4982-bbd6-7bc2f6832a91"></button>
+            </div>
+            <div class="col-2">
+                <img src="http://assets.stickpng.com/images/58f36427a4fa116215a923cf.png" class="main-pic">
+                <div class="color-box"></div>
+                    <div class="add-btn">
+                        <img src="https://image.flaticon.com/icons/png/512/57/57493.png">
+                        <p><small>Get Free</small></p>
+                    </div>
+            </div>
+        </div>
+    </div>
+        <hr class="divider">
+       <div class="footer">
+        <div class="social-links">
+            <h4 id="follow">Follow Me On <br>Solo Learn</h4>
+            <h5 id="dof">@Developer Of Future</h5>
+            <img src="data:image/png;base64,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" alt="">
+            <p id="copyright">copyright &copy; Web Dev.com</p>
+        </div>
+    </div>
+    <script>
+
+         var menuList = document.getElementById("menuList");
+
+         menuList.style.maxHeight = "0px";
+
+         function togglemenu(){
+
+            if(menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "230px";
+                }
+                else 
+                {
+                    menuList.style.maxHeight = "230px";
+                }
+
+         }
+
+    </script>
+
+</body>
+</html>
